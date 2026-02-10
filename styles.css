@@ -1,3 +1,12 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -14,7 +23,7 @@ h1,
 h2,
 h4,
 h5,
-h6, {
+h6 {
   text-align: center;
   margin-top: 20px;
 }
@@ -53,13 +62,6 @@ a:hover {
   color: rgb(55, 98, 240);
 }
 
-body {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-}
 
 div {
   border-radius: 10px;
@@ -81,6 +83,7 @@ img {
   border-color: rgba(153, 153, 153, 0.603);
   width: 200px;
   height: 200px;
+  object-fit: cover;
 }
 
 .types-pasta {
@@ -90,6 +93,7 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  padding: 0;
 }
 
 .main-image {
